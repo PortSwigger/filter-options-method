@@ -1,0 +1,8 @@
+<p>A Burp extension that filters out <code>OPTIONS</code> requests from populating Burp's Proxy history. This extension works by doing the following:</p>
+
+<ol>
+	<li>Force the &quot;Content-Type&quot; header value to &quot;text/css&#59; charset&#61;UTF-8&quot;.</li>
+	<li>Comment out the entire response body so Burp will not recognize the MIME type incorrectly.</li>
+</ol>
+
+<p>A post about this extension can be found <a href="https://captmeelo.com/pentest/2020/01/06/filter-options-method.html">here</a>.</p>

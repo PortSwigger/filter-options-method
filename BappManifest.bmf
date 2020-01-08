@@ -1,0 +1,12 @@
+Uuid: fa14ac579cff4682b32f39af8d3651e7
+ExtensionType: 2
+Name: Filter Options Method
+RepoName: filter-options-method
+ScreenVersion: 1.2
+SerialVersion: 4
+MinPlatformVersion: 0
+ProOnly: False
+Author: Capt. Meelo (@CaptMeelo)
+ShortDescription: Filters out OPTIONS requests from populating Burp's Proxy history.
+EntryPoint: filter-options-method.py
+BuildCommand: 
